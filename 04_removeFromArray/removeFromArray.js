@@ -1,6 +1,6 @@
 const removeFromArray = function(array) {
 
-    let  args = Array.prototype.slice.call(arguments);
+    let args = Array.prototype.slice.call(arguments).slice(1);
     let resultArray = []
 
     for (let i = 0; i < array.length; i++) {
