@@ -4,7 +4,7 @@ const repeatString = function(string, num) {
         return "ERROR";
     }
 
-    resultString = "";
+    let resultString = "";
 
     for (let i = 0; i < num; i++) {
         resultString += string;
